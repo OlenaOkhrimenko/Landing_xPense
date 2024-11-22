@@ -1,0 +1,263 @@
+.footer_links{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  row-gap: 30px;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  font-family: Hind Siliguri;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29.11px;
+  text-align: left;
+  border-bottom: 1px solid rgba(189, 189, 189, 0.2);
+  padding-bottom: 20px;
+
+}
+.footer_links--title{
+  font-family: Hind Siliguri;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 38.81px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.footer_links_logo{
+  width: 112px;
+  height: 40px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.footer_nav1{
+  width: 71px;
+
+  display: flex;
+  flex-direction: column;
+  /*margin-left: 172px;*/
+}
+
+.footer_nav2 {
+  width: 154px;
+
+  display: flex;
+  flex-direction: column; 
+  /*margin-left: 123px;*/
+}
+
+.footer_fnav__list{
+  margin-top: 24px;
+}
+
+.footer_copywrite{
+  width: 100%;
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.64px;
+  text-align: left;
+ /* margin-bottom: 90px;*/
+  text-wrap: nowrap;
+
+}
+
+hr {
+  width: 1109px;
+  height: 0px;
+  border: 1px;
+  border: 1px solid rgba(189, 189, 189, 0.2)
+
+}
+.footer_links__newsletter{
+  width: 349px;
+  border-radius: 8px;
+  /*margin-left: 128px;*/
+
+}
+.newsletter_info{
+  width: 305px;
+  height: 32px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32.34px;
+  color: rgba(189, 189, 189, 1);
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+
+.input_email{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 349px;
+  height: 62px;
+  border-radius: 8px;
+  border: 1px solid black;
+}
+
+.email{
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-weight: 400;
+  line-height: 29.11px;
+  font-size: 18px;
+  color: var(--color_black);
+  border-radius: 8px;
+  padding-left: 23px;
+  }
+
+.newsletter_info.newsletter_info--span {
+  width: 204px;
+  height: 23px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22.64px;
+  text-transform: none;
+  margin-top: 10px;
+}
+
+.footer_copywrite.footer_copywrite--icons{
+  display: flex;
+  column-gap: 12px;  
+ /* padding-left: 412px;*/
+}
+
+a{
+  color: var(--black);
+text-decoration: none;
+}
+
+a:hover {
+  color: var(--color_btn_background);
+}
+/* FOOTER BOTTOM###  */
+
+/* FOOTER### */
+
+@media screen and (min-width: 343px) and (max-width: 767.98px){
+  .footer_links{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+    font-family: Hind Siliguri;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29.11px;
+    text-align: left;
+  }
+
+    .input_email{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 300px;
+      height: 62px;
+      border-radius: 8px;
+      border: 1px solid black;
+    }
+    
+  
+  .footer_links_logo{
+    
+    height: 40px;
+  }
+  
+  .footer_nav1{
+  
+    height: 277px;
+    flex-direction: column;
+    
+  }
+  
+  .footer_nav2 {
+   
+    height: 203px;
+    flex-direction: column; 
+  
+  }
+  
+  .footer_links__newsletter{
+  
+    height: 208px;
+    border-radius: 8px;
+  
+  }
+  .footer_copywrite {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.64px;
+    text-align: left;
+    text-wrap: nowrap;
+}
+.footer_copywrite.footer_copywrite--icons{
+  display: flex;
+  flex-direction: row;
+  column-gap: 12px;  
+ /* padding-left: 412px;*/
+}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023.98px)
+{
+  .footer_links{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    font-family: Hind Siliguri;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29.11px;
+    text-align: left;
+  
+  }
+  .footer_links_logo{
+    
+    height: 40px;
+  }
+  
+  .footer_nav1{
+  
+    height: 277px;
+    flex-direction: column;
+    
+  }
+  
+  .footer_nav2 {
+   
+    height: 203px;
+    flex-direction: column; 
+  
+  }
+  
+  .footer_links__newsletter{
+  
+    height: 208px;
+    border-radius: 8px;
+  
+  }
+  .footer_copywrite {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22.64px;
+    text-align: left;
+    text-wrap: nowrap;
+}
+.footer_copywrite.footer_copywrite--icons{
+  display: flex;
+  flex-direction: row;
+  column-gap: 12px;  
+ /* padding-left: 412px;*/
+}
+}
